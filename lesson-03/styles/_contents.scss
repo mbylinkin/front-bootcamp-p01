@@ -1,0 +1,60 @@
+.contents-section {
+    padding-top: 150px;
+
+    &__title {
+        text-align: center;        
+    }
+
+    &__subtitle {
+        margin-bottom: 54px;
+        text-align: center;
+    }
+
+    &__content {
+        display: flex;
+    }
+
+    &__caption {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    &__card {
+        border-radius: 10px;
+        width: 476px;
+
+        text-align: center;
+
+        border: 1px solid #D3D3D3;
+
+        color: #000;
+        background-color: white;
+
+        &:last-child {
+            margin-left: 32px;
+        }
+
+    }
+
+    &__paragraph {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    &__button {
+        border: 1px solid #fff;
+        color: #fff;
+        background-color: transparent;
+        background-color: #4452fe;
+        border-color: #4452fe;
+
+    
+
+        margin-bottom: 30;
+    }
+
+    &__image {
+        // margin-bottom: 40px;
+    }
+}

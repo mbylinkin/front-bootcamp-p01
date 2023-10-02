@@ -1,0 +1,19 @@
+.button {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    
+    &:hover {
+      background-color: #4452fe;
+      border-color: #4452fe;
+    }
+    
+    &--small {
+      padding: 14px 46px;
+    }
+
+    &--large {
+      padding: 20px 40px;
+    }
+  } 
+

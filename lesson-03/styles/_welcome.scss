@@ -8,22 +8,24 @@
     font-size: 80px;
     line-height: 88px;
   }
-}
 
-.welcome-section__subtitle {
-  margin-bottom: 86px;
+  &__subtitle {
+    margin-bottom: 86px;
 
-  font-size: 20px;
-  line-height: 30px;
-}
+    font-size: 20px;
+    line-height: 30px;
+  }
 
-.welcome-section__links {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 36px;
+  &__links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+  }
+  
 }
 
 .welcome-section__link {
+  
 }
 
 .welcome-section__link:first-child {
